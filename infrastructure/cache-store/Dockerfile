@@ -1,4 +1,4 @@
-FROM redis:6-alpine
+FROM redis:6.2.2-alpine
 LABEL MAINTAINER="Madhu Akula" INFO="Kubernetes Goat"
 
 COPY data.redis /data.redis
