@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:20.8-bookworm-slim
 LABEL MAINTAINER "Madhu Akula" INFO="Kubernetes Goat"
 
 WORKDIR /app
