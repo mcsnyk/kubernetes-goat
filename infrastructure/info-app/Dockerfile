@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3.13-rc-alpine3.18
 LABEL MAINTAINER="Madhu Akula" INFO="Kubernetes Goat"
 
 COPY app.py /app.py
