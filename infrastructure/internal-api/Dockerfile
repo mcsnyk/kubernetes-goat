@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:22.8.0-alpine3.20
 LABEL MAINTAINER="Madhu Akula" INFO="Kubernetes Goat"
 
 WORKDIR /usr/src/app
